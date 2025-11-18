@@ -2,9 +2,9 @@ name: Test and Build
 
 on:
   push:
-    branches: ["main", "Angel"]
+    branches: ["master", "Angel"]
   pull_request:
-    branches: ["main", "Angel"]
+    branches: ["master", "Angel"]
 
 permissions:
   contents: read
